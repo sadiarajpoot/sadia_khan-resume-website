@@ -1,12 +1,7 @@
-var hamburgerHome = document.querySelector('.hamburger');
-var navListHome = document.querySelector('.nav-list');
-if (hamburgerHome && navListHome) {
-    hamburgerHome.addEventListener('click', function () {
-       
-        hamburgerHome.classList.toggle('active');
-        navListHome.classList.toggle('active');
-        
-        var isExpanded = hamburgerHome.getAttribute('aria-expanded') === 'true';
-        hamburgerHome.setAttribute('aria-expanded', (!isExpanded).toString());
+var Hamburger = document.querySelector('.hamburger');
+var nav = document.querySelector('.nav-list');
+if (Hamburger && nav) {
+    Hamburger.addEventListener('click', function () {
+        nav.classList.toggle('active');
     });
 }
