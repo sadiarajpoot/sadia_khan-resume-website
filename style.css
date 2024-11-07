@@ -538,6 +538,7 @@ transform: scale(1.05);
 
     .grid {
         grid-template-columns: repeat(1, 1fr);
+				
     }
 
     .custom-button {
@@ -551,9 +552,8 @@ transform: scale(1.05);
 
 @media (max-width: 480px) {
     .container {
-        margin-left: 10px;
-        margin-right: 10px;
-        padding: 5px; /
+       margin:30px 25px;
+        padding: 5px; 
     }
 
     .image-container h2 {
@@ -575,7 +575,7 @@ transform: scale(1.05);
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 53px;
+        top: 67px;
         left: 0;
         width: 100%;
         background:  #F5F8F3;
